@@ -10,8 +10,8 @@ import {composeWithDevTools} from "redux-devtools-extension";
 // })
 
 const rootReducer = combineReducers({
-  cash: cashReducer,
-  customers: customerReducer
+  cashRed: cashReducer,
+  customersRed: customerReducer
 })
 
 // при создании store вторым параметром можно передать как middleware так и инструменты
