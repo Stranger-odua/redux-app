@@ -9,7 +9,7 @@ function App() {
   const dispatch = useDispatch()
   // чтобы получить состояние юзаем хук useSelector параметром он принимает функцию, а эта
   // функция в свою очередь параметром принимает состояние
-  const cash = useSelector(state => state.cash)
+  const cash = useSelector(state => state.cash.cash)
   console.log(cash)
 
 
